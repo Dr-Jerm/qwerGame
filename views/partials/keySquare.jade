@@ -1,2 +1,5 @@
-div
-  | Hello world
+div.key-square(ng-style="keySquareStyle()")
+  div.spell-block(ng-style="spellBlockStyle()")
+    div.spell-image
+    div.spell-key(ng-style="spellKeyStyle()")
+      | {{key}}
